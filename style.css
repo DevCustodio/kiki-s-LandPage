@@ -26,7 +26,7 @@ body {
     margin: 0px auto;
     background-image: url(img/kiki\ vetor.png);
     background-size: 900px;
-    background-position: top right 100%;
+    background-position: 100% 0;
     background-repeat: no-repeat;
     animation: animate-background linear 12s infinite;
 
@@ -100,8 +100,8 @@ body {
     }
 
     @keyframes animate-background {
-        from {background-position: 120% 100px;}
-        to { background-position: -250px 0px;}
+        from {background-position: 120% 70px;}
+        to { background-position: -250px -900px;}
     }
 
     .banner .content {    
