@@ -109,15 +109,13 @@ body {
         text-align: left;  
         font-size: 1.8em;
         letter-spacing: 0.05em;
-    }
-
-    .icones-menu {
-        padding-top: -50px;
+        text-shadow: 3px 3px var(--colortlt);  
     }
     
     .banner .content p {
         font-size: 0.9em;
         font-weight: 400;             
         text-align: left;
+        text-shadow: 3px 3px var(--colortlt);  
     }
 }
