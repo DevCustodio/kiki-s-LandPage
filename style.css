@@ -24,16 +24,16 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     margin: 0px auto;
-    background-image: url(img/kiki\ vetor.png);
+    background-image: url(img/kiki\ vetor.svg);
     background-size: 900px;
     background-position: 100% 0;
     background-repeat: no-repeat;
-    animation: animate-background linear 12s infinite;
-
+    animation: animate-background linear 7s infinite;
+    position: relative;
 }
 @keyframes animate-background {
-    from {background-position: 40% 50px;}
-    to { background-position: 0px -100px;}
+    from {background-position: 1390px 400px;}
+    to { background-position: 10px -690px;}
 }
 
 .banner .content {
@@ -46,20 +46,9 @@ body {
     align-items: flex-end;      
 }
 
-.icones-menu {
-    padding-top: 20px;
-}
-
-.icones-menu .icone {
-    margin-top: 0px;
-    height: 40px;
-    text-align: right;
-    padding-bottom: 150px;
-    padding-left: 15px;
-}
-
 .banner .content h2 {
     text-align: left;
+    text-align: right;
     line-height: 1.1em;
     text-transform: uppercase;
     font-weight: 500;
@@ -100,8 +89,8 @@ body {
     }
 
     @keyframes animate-background {
-        from {background-position: 120% 70px;}
-        to { background-position: -250px -900px;}
+        from {background-position: 250% 70px;}
+        to { background-position: -1450px -400px;}
     }
 
     .banner .content {    
@@ -126,14 +115,6 @@ body {
         padding-top: -50px;
     }
     
-    .icones-menu .icone {
-        height: 30px;
-        text-align: left;
-        padding-bottom: 150px;
-        padding-left: 0;
-        padding-right: 7px;
-    }
-
     .banner .content p {
         font-size: 0.9em;
         font-weight: 400;             
